@@ -9,10 +9,10 @@ body{
   font-family: 'Kaushan Script', cursive;
 }
 .title{
-  font-size: 35px;
+  font-size: 38px;
   text-align: center;
   margin: 20px auto;
-  color: #773b5de6;
+  color: #8a436b;
 }
 /*Translate*/
 .wrap1{
@@ -24,6 +24,7 @@ body{
   box-shadow: 5px 5px 10px #fff;
   padding: 20px;
   position: relative;
+  font-size: 20px;
 }
 .wrap1 .translate{
   height: 60px;
@@ -35,40 +36,33 @@ body{
   top: 40%;
   left:42%;
   border:1px solid #016238;
-}
-.wrap1 .one{
   transition: 2s linear;
 }
+
 .wrap1:hover .one{
  -ms-transform: translate(300px); /* IE 9 */
     -webkit-transform: translate(300px); /* Safari */
     transform: translate(300px); /* Standard syntax */
 }
-.wrap1 .two{
-  transition: 2s linear;
-}
+
 .wrap1:hover .two{
  -ms-transform: translateY(250px); /* IE 9 */
     -webkit-transform: translateY(250px); /* Safari */
     transform: translateY(250px); /* Standard syntax */
 }
-.wrap1 .tree{
-  transition: 2s linear;
-}
+
 .wrap1:hover .tree{
  -ms-transform: translateX(-300px); /* IE 9 */
     -webkit-transform: translateX(-300px); /* Safari */
     transform: translateX(-300px); /* Standard syntax */
 }
-.wrap1 .four{
-  transition: 2s linear;
-   
-}
+
 .wrap1:hover .four{
  -ms-transform: translateY(-250px); /* IE 9 */
     -webkit-transform: translateY(-250px); /* Safari */
     transform: translateY(-250px); /* Standard syntax */
 }
+
 
 .wrap2{
   background: url('../image/wov.png');
@@ -80,8 +74,7 @@ body{
   padding: 20px;
   position: relative;
   font-size: 20px;
-  
-  
+   
 }
 .pers{
   perspective: 200px;
@@ -99,38 +92,28 @@ body{
   border-radius: 3px;
   border:1px solid #b37171;
   line-height: 60px;
+  transition: 2s linear;
 }
 .wrap2:hover .one{
      -ms-transform: rotate(-45deg); /* IE 9 */
     -webkit-transform: rotate(-45deg); /* Safari */
     transform: rotate(-45deg);
 }
-.wrap2 .one{
-   transition: 2s linear;
-}
 .wrap2:hover .two{
      -ms-transform: rotate(45deg); /* IE 9 */
     -webkit-transform: rotate(45deg); /* Safari */
     transform: rotate(45deg);
-}
-.wrap2 .two{
-   transition: 2s linear;
 }
 .wrap2:hover .tree{
      -ms-transform: rotateY(30deg); /* IE 9 */
     -webkit-transform: rotateY(30deg); /* Safari */
     transform: rotateY(30deg);
 }
-.wrap2 .tree{
-   transition: 2s linear;
-}
+
 .wrap2:hover .four{
      -ms-transform: rotateY(-30deg); /* IE 9 */
     -webkit-transform: rotateY(-30deg); /* Safari */
     transform: rotateY(-30deg);
-}
-.wrap2 .four{
-   transition: 2s linear;
 }
 .block{
   display: inline-block;
@@ -146,38 +129,22 @@ margin: 0;
     -webkit-transform: rotate(180deg); /* Safari */
     transform: rotate(180deg);
 }
-.wrap2 .five{
-   transition: 2s linear;
-}
-
-
 .wrap2:hover .six{
      -ms-transform: rotateX(-45deg); /* IE 9 */
     -webkit-transform: rotateX(-45deg); /* Safari */
     transform: rotateX(-45deg);
 }
-.wrap2 .six{
-   transition: 2s linear;
-}
+
 .wrap2:hover .seven{
      -ms-transform: rotateX(45deg); /* IE 9 */
     -webkit-transform: rotateX(45deg); /* Safari */
     transform: rotateX(45deg);
-}
-.wrap2 .seven{
-   transition: 2s linear;
 }
 
 .wrap2:hover .eight{
      -ms-transform: rotateY(360deg); /* IE 9 */
     -webkit-transform: rotateY(360deg);
 }
-.wrap2 .eight{
-   transition: 2s linear;
-}
-
-
-
 
 
 .wrap3{
@@ -197,20 +164,18 @@ margin: 0;
 .wrap3 .scale{
   height: 70px;
   width: 130px;
-  background-color: #b9eddb;
+  background-color: #beb9ed;
   margin: 35px;
   text-align: center;
   border-radius: 3px;
-  border:1px solid #759e90;
+  border:1px solid #7769fb;
   line-height: 60px;
+  transition: 2s linear;
 }
 .wrap3:hover .one{
      -ms-transform: scale(2); /* IE 9 */
     -webkit-transform: scale(2); /* Safari */
     transform: scale(2);
-}
-.wrap3 .one{
-   transition: 2s linear;
 }
 
 .wrap3:hover .two{
@@ -218,48 +183,36 @@ margin: 0;
     -webkit-transform: scaleY(2); /* Safari */
     transform: scaleY(2);
 }
-.wrap3 .two{
-   transition: 2s linear;
-}
 
 .wrap3:hover .tree{
      -ms-transform: scaleX(2); /* IE 9 */
     -webkit-transform: scaleX(2); /* Safari */
     transform: scaleX(2);
 }
-.wrap3 .tree{
-   transition: 2s linear;
-}
+
 .wrap3:hover .four{
      -ms-transform: scale(2,0.5); /* IE 9 */
     -webkit-transform: scale(2,0.5); /* Safari */
     transform: scale(2,0.5);
 }
-.wrap3 .four{
-   transition: 2s linear;
-}
+
 
 .wrap3:hover .five{
      -ms-transform: scaleX(0.5); /* IE 9 */
     -webkit-transform: scaleX(0.5); /* Safari */
     transform: scaleX(0.5);
 }
-.wrap3 .five{
-   transition: 2s linear;
-}
+
 
 .wrap3:hover .six{
      -ms-transform: scaleY(0.5); /* IE 9 */
     -webkit-transform: scaleY(0.5); /* Safari */
     transform: scaleY(0.5);
 }
-.wrap3 .six{
-   transition: 2s linear;
-}
+
 .sca{
   margin: 15px;
 }
-
 
 .wrap4{
   background: url('../image/food.png');
@@ -271,8 +224,7 @@ margin: 0;
   padding: 20px;
   position: relative;
   font-size: 20px;
-  
-  
+    
 }
 
 .wrap4 .skew{
@@ -284,12 +236,182 @@ margin: 0;
   border-radius: 3px;
   border:1px solid #759e90;
   line-height: 60px;
+  transition: 2s linear;
 }
 .wrap4:hover .one{
-     -ms-transform: scale(2); /* IE 9 */
-    -webkit-transform: scale(2); /* Safari */
-    transform: scale(2);
+     -ms-transform: skew(45deg); /* IE 9 */
+    -webkit-transform: skew(45deg); /* Safari */
+    transform: skew(45deg);
 }
-.wrap4 .one{
-   transition: 2s linear;
+
+.wrap4:hover .two{
+     -ms-transform: skewY(45deg); /* IE 9 */
+    -webkit-transform: skewY(45deg); /* Safari */
+    transform: skewY(45deg);
 }
+.wrap4:hover .tree{
+     -ms-transform: skew(45deg,45deg); /* IE 9 */
+    -webkit-transform: skew(45deg,45deg); /* Safari */
+    transform: skew(45deg,45deg);
+}
+
+.wrap4:hover .four{
+     -ms-transform: skew(-45deg); /* IE 9 */
+    -webkit-transform: skew(-45deg); /* Safari */
+    transform: skew(-45deg);
+}
+.wrap4:hover .five{
+      -ms-transform: skewY(-45deg); /* IE 9 */
+    -webkit-transform: skewY(-45deg); /* Safari */
+    transform: skewY(-45deg);
+}
+
+.wrap4:hover .six{
+     -ms-transform: skew(45deg,-45deg); /* IE 9 */
+    -webkit-transform: skew(45deg,-45deg); /* Safari */
+    transform: skew(45deg,-45deg);
+}
+
+.pers1{
+  perspective: 400px;
+  -moz-perspective: 400px;
+  height: 150px;
+  width: 130px;
+}
+
+.wrap5{
+  background: url('../image/green_dust_scratch.png');
+  width: 800px;
+  margin: 50px auto;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #fff;
+  padding: 20px;
+  position: relative;
+  font-size: 20px;
+  }
+
+.wrap5 .exp{
+  height: 70px;
+  width: 130px;
+  background-color: #dbbc9c;
+  margin: 35px;
+  text-align: center;
+  border-radius: 3px;
+  border:1px solid #c9a580;
+  box-shadow: 3px 3px 3px #c9a580;
+  line-height: 60px;
+  transition: 1.5s linear;
+}
+.wrap5:hover .one{
+     -ms-transform: translateX(100px) rotate(-45deg); /* IE 9 */
+    -webkit-transform: translateX(100px) rotate(-45deg); /* Safari */
+    transform: translateX(100px) rotate(-45deg); /* Standard syntax */
+}
+.wrap5:hover .two{
+     -ms-transform: scale(2) rotate(360deg); /* IE 9 */
+    -webkit-transform: scale(2) rotate(360deg); /* Safari */
+    transform: scale(2) rotate(360deg); /* Standard syntax */
+}
+.wrap5:hover .tree{
+     -ms-transform: translateX(120px) rotate(45deg); /* IE 9 */
+    -webkit-transform: translateX(120px) rotate(45deg); /* Safari */
+    transform: translateX(120px) rotate(45deg); /* Standard syntax */
+    transform-origin: top left;
+}
+.wrap5:hover .four{
+     -ms-transform: translateX(-120px) rotate(360deg); /* IE 9 */
+    -webkit-transform: translateX(-120px) rotate(360deg); /* Safari */
+    transform: translateX(-120px) rotate(360deg); /* Standard syntax */
+}
+.wrap5:hover .five{
+     -ms-transform: scale(0.5) rotate(-360deg); /* IE 9 */
+    -webkit-transform: scale(0.5) rotate(-360deg); /* Safari */
+    transform: scale(0.5) rotate(-360deg); /* Standard syntax */
+}
+.wrap5:hover .six{
+     -ms-transform: translateX(-180px) rotate(-135deg); /* IE 9 */
+    -webkit-transform: translateX(-180px) rotate(-135deg); /* Safari */
+    transform: translateX(-180px) rotate(-135deg); /* Standard syntax */
+    transform-origin: top right;
+}
+
+.wrap6{
+  background: url('../image/old_map.png');
+  width: 800px;
+  margin: 50px auto;
+  height: 650px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #fff;
+  padding: 20px;
+  position: relative;
+  font-size: 20px;
+  }
+
+.wrap6 .ex3d{
+  height: 70px;
+  width: 130px;
+  background-color: #edcbb9;
+  margin: 35px;
+  text-align: center;
+  border-radius: 3px;
+  border:1px solid #759e90;
+  box-shadow: 3px 3px 3px #759e90;
+  line-height: 60px;
+  transition: 1.5s linear;
+}
+.persp{
+   perspective: 200px;
+  -moz-perspective: 200px;
+  height: 80px;
+  width: 200px;
+}
+.wrap6:hover .one{
+     -ms-transform: rotateX(30deg); /* IE 9 */
+    -webkit-transform: rotateX(30deg); /* Safari */
+    transform: rotateX(30deg); /* Standard syntax */
+}
+.wrap6:hover .two{
+     -ms-transform: rotateX(-30deg); /* IE 9 */
+    -webkit-transform: rotateX(-30deg); /* Safari */
+    transform: rotateX(-30deg); /* Standard syntax */
+}
+.wrap6:hover .tree{
+     -ms-transform: rotateY(-30deg); /* IE 9 */
+    -webkit-transform: rotateY(-30deg); /* Safari */
+    transform: rotateY(-30deg); /* Standard syntax */
+}
+.wrap6:hover .four{
+     -ms-transform: rotateY(30deg); /* IE 9 */
+    -webkit-transform: rotateY(30deg); /* Safari */
+    transform: rotateY(30deg); /* Standard syntax */
+}
+.wrap6:hover .five{
+     -ms-transform: rotate3d(1,1,1,45deg); /* IE 9 */
+    -webkit-transform: rotate3d(1,1,1,45deg); /* Safari */
+    transform: rotate3d(1,1,1,45deg); /* Standard syntax */
+}
+.wrap6:hover .six{
+    -ms-transform: rotate3d(1,-1,1,45deg); /* IE 9 */
+    -webkit-transform: rotate3d(1,-1,1,45deg); /* Safari */
+    transform: rotate3d(1,-1,1,45deg); /* Standard syntax */
+}
+.wrap6:hover .seven{
+     -ms-transform: rotate3d(-1,1,1,90deg); /* IE 9 */
+    -webkit-transform: rotate3d(-1,1,1,90deg); /* Safari */
+    transform: rotate3d(-1,1,1,90deg); /* Standard syntax */
+}
+.wrap6:hover .eight{
+    -ms-transform: rotate3d(-1,1,-1,60deg); /* IE 9 */
+    -webkit-transform: rotate3d(-1,1,-1,60deg); /* Safari */
+    transform: rotate3d(-1,1,-1,60deg); /* Standard syntax */
+}
+.wrap6:hover .nine{
+     -ms-transform: rotate3d(-1,1,1,360deg); /* IE 9 */
+    -webkit-transform: rotate3d(-1,1,1,360deg); /* Safari */
+    transform: rotate3d(-1,1,1,360deg); /* Standard syntax */
+}
+.wrap6:hover .ten{
+    -ms-transform: rotate3d(1,-1,-1,320deg); /* IE 9 */
+    -webkit-transform: rotate3d(1,-1,-1,320deg); /* Safari */
+    transform: rotate3d(1,-1,-1,320deg); /* Standard syntax */
