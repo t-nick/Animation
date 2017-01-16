@@ -415,3 +415,112 @@ margin: 0;
     -ms-transform: rotate3d(1,-1,-1,320deg); /* IE 9 */
     -webkit-transform: rotate3d(1,-1,-1,320deg); /* Safari */
     transform: rotate3d(1,-1,-1,320deg); /* Standard syntax */
+}
+
+  .wrap7{
+  background: url('../image/carbon_fibre.png');
+  width: 800px;
+  margin: 50px auto;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #fff;
+  padding: 20px;
+  position: relative;
+  font-size: 20px;
+  }
+
+.wrap7 .anim{
+  height: 80px;
+  width: 80px;
+  background-color: #baf5f8;
+  position: absolute;
+  top:41%;
+  left:5%;
+  text-align: center;
+  border-radius: 50%;
+  border:1px solid #759e90;
+  box-shadow: 0 0 8px #baf5f8;
+  line-height: 80px;
+ animation-name: animate;
+ animation-duration: 10s;
+ animation-timing-function: linear;
+animation-iteration-count: infinite;
+
+
+}
+
+@keyframes animate{
+  0%{
+    left: 4%; top:41%;
+  }
+  3%{
+    left: 7%; top:29%;
+  }
+
+
+  9%{
+    left: 17%; top:18%;
+  }
+  12%{
+    left: 22%; top:15%;
+  }
+  15%{
+    left: 27%; top:18%;
+  }
+
+  25%{
+    left:43%; top:41%; background-color: #9c9fe1;
+  }
+
+
+  35%{
+    left: 57%; top:62%;
+  }
+  38%{
+    left: 62%; top:65%;
+  }
+  41%{
+    left: 67%; top:62%;
+  }
+
+
+  47%{
+    left: 80%; top:53%; background-color: #e19ccf;
+  }
+  50%{
+    left: 85%; top:41%; background-color: #e19ccf;
+  }
+  53%{
+    left: 80%; top:29%; background-color: #e19ccf;
+  }
+
+  59%{
+    left: 67%; top:18%; 
+  }
+  62%{
+    left: 62%; top:15%; background-color: #e69292;
+  }
+  65%{
+    left: 57%; top:18%; 
+  }
+
+  75%{
+    left:43%; top:41%; background-color: #f2f071;
+  }
+
+  85%{
+    left: 27%; top:62%; 
+  }
+  88%{
+    left: 22%; top:65%; background-color: #86f271;
+  }
+  91%{
+    left: 17%; top:62%; 
+  }
+  97%{
+    left: 8%; top:53%;
+  }
+  100%{
+    left: 5%; top:41%;
+  }
+}
