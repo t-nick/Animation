@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body{
   background: url('../image/subtle_grunge.png');
   font-family: 'Kaushan Script', cursive;
@@ -38,32 +37,19 @@ body{
   border:1px solid #016238;
   transition: 2s linear;
 }
-
 .wrap1:hover .one{
- -ms-transform: translate(300px); /* IE 9 */
-    -webkit-transform: translate(300px); /* Safari */
-    transform: translate(300px); /* Standard syntax */
+  transform: translate(300px); 
 }
-
 .wrap1:hover .two{
- -ms-transform: translateY(250px); /* IE 9 */
-    -webkit-transform: translateY(250px); /* Safari */
-    transform: translateY(250px); /* Standard syntax */
+  transform: translateY(250px); 
 }
-
 .wrap1:hover .tree{
- -ms-transform: translateX(-300px); /* IE 9 */
-    -webkit-transform: translateX(-300px); /* Safari */
-    transform: translateX(-300px); /* Standard syntax */
+  transform: translateX(-300px); 
 }
-
 .wrap1:hover .four{
- -ms-transform: translateY(-250px); /* IE 9 */
-    -webkit-transform: translateY(-250px); /* Safari */
-    transform: translateY(-250px); /* Standard syntax */
+  transform: translateY(-250px); 
 }
-
-
+/*Rotate*/
 .wrap2{
   background: url('../image/wov.png');
   width: 800px;
@@ -73,15 +59,12 @@ body{
   box-shadow: 5px 5px 10px #fff;
   padding: 20px;
   position: relative;
-  font-size: 20px;
-   
+  font-size: 20px;   
 }
 .pers{
   perspective: 200px;
-  -moz-perspective: 200px;
   height: 150px;
   width: 130px;
-
 }
 .wrap2 .rotate{
   height: 60px;
@@ -95,25 +78,16 @@ body{
   transition: 2s linear;
 }
 .wrap2:hover .one{
-     -ms-transform: rotate(-45deg); /* IE 9 */
-    -webkit-transform: rotate(-45deg); /* Safari */
-    transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .wrap2:hover .two{
-     -ms-transform: rotate(45deg); /* IE 9 */
-    -webkit-transform: rotate(45deg); /* Safari */
-    transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .wrap2:hover .tree{
-     -ms-transform: rotateY(30deg); /* IE 9 */
-    -webkit-transform: rotateY(30deg); /* Safari */
-    transform: rotateY(30deg);
+  transform: rotateY(30deg);
 }
-
 .wrap2:hover .four{
-     -ms-transform: rotateY(-30deg); /* IE 9 */
-    -webkit-transform: rotateY(-30deg); /* Safari */
-    transform: rotateY(-30deg);
+  transform: rotateY(-30deg);
 }
 .block{
   display: inline-block;
@@ -122,31 +96,19 @@ body{
 .rot{
 margin: 0;
 }
-
-
 .wrap2:hover .five{
-     -ms-transform: rotate(180deg); /* IE 9 */
-    -webkit-transform: rotate(180deg); /* Safari */
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 .wrap2:hover .six{
-     -ms-transform: rotateX(-45deg); /* IE 9 */
-    -webkit-transform: rotateX(-45deg); /* Safari */
-    transform: rotateX(-45deg);
+  transform: rotateX(-45deg);
 }
-
 .wrap2:hover .seven{
-     -ms-transform: rotateX(45deg); /* IE 9 */
-    -webkit-transform: rotateX(45deg); /* Safari */
-    transform: rotateX(45deg);
+  transform: rotateX(45deg);
 }
-
 .wrap2:hover .eight{
-     -ms-transform: rotateY(360deg); /* IE 9 */
-    -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
 }
-
-
+/*Scale*/
 .wrap3{
   background: url('../image/rip_jobs.png');
   width: 800px;
@@ -157,10 +119,7 @@ margin: 0;
   padding: 20px;
   position: relative;
   font-size: 20px;
-  
-  
 }
-
 .wrap3 .scale{
   height: 70px;
   width: 130px;
@@ -173,47 +132,27 @@ margin: 0;
   transition: 2s linear;
 }
 .wrap3:hover .one{
-     -ms-transform: scale(2); /* IE 9 */
-    -webkit-transform: scale(2); /* Safari */
-    transform: scale(2);
+  transform: scale(2);
 }
-
 .wrap3:hover .two{
-     -ms-transform: scaleY(2); /* IE 9 */
-    -webkit-transform: scaleY(2); /* Safari */
-    transform: scaleY(2);
+  transform: scaleY(2);
 }
-
 .wrap3:hover .tree{
-     -ms-transform: scaleX(2); /* IE 9 */
-    -webkit-transform: scaleX(2); /* Safari */
-    transform: scaleX(2);
+  transform: scaleX(2);
 }
-
 .wrap3:hover .four{
-     -ms-transform: scale(2,0.5); /* IE 9 */
-    -webkit-transform: scale(2,0.5); /* Safari */
-    transform: scale(2,0.5);
+  transform: scale(2,0.5);
 }
-
-
 .wrap3:hover .five{
-     -ms-transform: scaleX(0.5); /* IE 9 */
-    -webkit-transform: scaleX(0.5); /* Safari */
-    transform: scaleX(0.5);
+  transform: scaleX(0.5);
 }
-
-
 .wrap3:hover .six{
-     -ms-transform: scaleY(0.5); /* IE 9 */
-    -webkit-transform: scaleY(0.5); /* Safari */
-    transform: scaleY(0.5);
+  transform: scaleY(0.5);
 }
-
 .sca{
   margin: 15px;
 }
-
+/*Skew*/
 .wrap4{
   background: url('../image/food.png');
   width: 800px;
@@ -224,9 +163,7 @@ margin: 0;
   padding: 20px;
   position: relative;
   font-size: 20px;
-    
 }
-
 .wrap4 .skew{
   height: 70px;
   width: 130px;
@@ -239,46 +176,29 @@ margin: 0;
   transition: 2s linear;
 }
 .wrap4:hover .one{
-     -ms-transform: skew(45deg); /* IE 9 */
-    -webkit-transform: skew(45deg); /* Safari */
-    transform: skew(45deg);
+  transform: skew(45deg);
 }
-
 .wrap4:hover .two{
-     -ms-transform: skewY(45deg); /* IE 9 */
-    -webkit-transform: skewY(45deg); /* Safari */
-    transform: skewY(45deg);
+  transform: skewY(45deg);
 }
 .wrap4:hover .tree{
-     -ms-transform: skew(45deg,45deg); /* IE 9 */
-    -webkit-transform: skew(45deg,45deg); /* Safari */
-    transform: skew(45deg,45deg);
+  transform: skew(45deg,45deg);
 }
-
 .wrap4:hover .four{
-     -ms-transform: skew(-45deg); /* IE 9 */
-    -webkit-transform: skew(-45deg); /* Safari */
-    transform: skew(-45deg);
+  transform: skew(-45deg);
 }
 .wrap4:hover .five{
-      -ms-transform: skewY(-45deg); /* IE 9 */
-    -webkit-transform: skewY(-45deg); /* Safari */
-    transform: skewY(-45deg);
+  transform: skewY(-45deg);
 }
-
 .wrap4:hover .six{
-     -ms-transform: skew(45deg,-45deg); /* IE 9 */
-    -webkit-transform: skew(45deg,-45deg); /* Safari */
-    transform: skew(45deg,-45deg);
+  transform: skew(45deg,-45deg);
 }
-
 .pers1{
   perspective: 400px;
-  -moz-perspective: 400px;
   height: 150px;
   width: 130px;
 }
-
+/*Experiments*/
 .wrap5{
   background: url('../image/green_dust_scratch.png');
   width: 800px;
@@ -289,7 +209,7 @@ margin: 0;
   padding: 20px;
   position: relative;
   font-size: 20px;
-  }
+}
 
 .wrap5 .exp{
   height: 70px;
@@ -304,38 +224,26 @@ margin: 0;
   transition: 1.5s linear;
 }
 .wrap5:hover .one{
-     -ms-transform: translateX(100px) rotate(-45deg); /* IE 9 */
-    -webkit-transform: translateX(100px) rotate(-45deg); /* Safari */
-    transform: translateX(100px) rotate(-45deg); /* Standard syntax */
+  transform: translateX(100px) rotate(-45deg); 
 }
 .wrap5:hover .two{
-     -ms-transform: scale(2) rotate(360deg); /* IE 9 */
-    -webkit-transform: scale(2) rotate(360deg); /* Safari */
-    transform: scale(2) rotate(360deg); /* Standard syntax */
+  transform: scale(2) rotate(360deg); 
 }
 .wrap5:hover .tree{
-     -ms-transform: translateX(120px) rotate(45deg); /* IE 9 */
-    -webkit-transform: translateX(120px) rotate(45deg); /* Safari */
-    transform: translateX(120px) rotate(45deg); /* Standard syntax */
-    transform-origin: top left;
+  transform: translateX(120px) rotate(45deg); 
+  transform-origin: top left;
 }
 .wrap5:hover .four{
-     -ms-transform: translateX(-120px) rotate(360deg); /* IE 9 */
-    -webkit-transform: translateX(-120px) rotate(360deg); /* Safari */
-    transform: translateX(-120px) rotate(360deg); /* Standard syntax */
+  transform: translateX(-120px) rotate(360deg); 
 }
 .wrap5:hover .five{
-     -ms-transform: scale(0.5) rotate(-360deg); /* IE 9 */
-    -webkit-transform: scale(0.5) rotate(-360deg); /* Safari */
-    transform: scale(0.5) rotate(-360deg); /* Standard syntax */
+  transform: scale(0.5) rotate(-360deg); 
 }
 .wrap5:hover .six{
-     -ms-transform: translateX(-180px) rotate(-135deg); /* IE 9 */
-    -webkit-transform: translateX(-180px) rotate(-135deg); /* Safari */
-    transform: translateX(-180px) rotate(-135deg); /* Standard syntax */
-    transform-origin: top right;
+  transform: translateX(-180px) rotate(-135deg); 
+  transform-origin: top right;
 }
-
+/*Experiments_3D*/
 .wrap6{
   background: url('../image/old_map.png');
   width: 800px;
@@ -346,8 +254,7 @@ margin: 0;
   padding: 20px;
   position: relative;
   font-size: 20px;
-  }
-
+}
 .wrap6 .ex3d{
   height: 70px;
   width: 130px;
@@ -361,63 +268,42 @@ margin: 0;
   transition: 1.5s linear;
 }
 .persp{
-   perspective: 200px;
-  -moz-perspective: 200px;
+  perspective: 200px;
   height: 80px;
   width: 200px;
 }
 .wrap6:hover .one{
-     -ms-transform: rotateX(30deg); /* IE 9 */
-    -webkit-transform: rotateX(30deg); /* Safari */
-    transform: rotateX(30deg); /* Standard syntax */
+  transform: rotateX(30deg); 
 }
 .wrap6:hover .two{
-     -ms-transform: rotateX(-30deg); /* IE 9 */
-    -webkit-transform: rotateX(-30deg); /* Safari */
-    transform: rotateX(-30deg); /* Standard syntax */
+  transform: rotateX(-30deg); 
 }
 .wrap6:hover .tree{
-     -ms-transform: rotateY(-30deg); /* IE 9 */
-    -webkit-transform: rotateY(-30deg); /* Safari */
-    transform: rotateY(-30deg); /* Standard syntax */
+  transform: rotateY(-30deg); 
 }
 .wrap6:hover .four{
-     -ms-transform: rotateY(30deg); /* IE 9 */
-    -webkit-transform: rotateY(30deg); /* Safari */
-    transform: rotateY(30deg); /* Standard syntax */
+  transform: rotateY(30deg); 
 }
 .wrap6:hover .five{
-     -ms-transform: rotate3d(1,1,1,45deg); /* IE 9 */
-    -webkit-transform: rotate3d(1,1,1,45deg); /* Safari */
-    transform: rotate3d(1,1,1,45deg); /* Standard syntax */
+  transform: rotate3d(1,1,1,45deg); 
 }
 .wrap6:hover .six{
-    -ms-transform: rotate3d(1,-1,1,45deg); /* IE 9 */
-    -webkit-transform: rotate3d(1,-1,1,45deg); /* Safari */
-    transform: rotate3d(1,-1,1,45deg); /* Standard syntax */
+  transform: rotate3d(1,-1,1,45deg); 
 }
 .wrap6:hover .seven{
-     -ms-transform: rotate3d(-1,1,1,90deg); /* IE 9 */
-    -webkit-transform: rotate3d(-1,1,1,90deg); /* Safari */
-    transform: rotate3d(-1,1,1,90deg); /* Standard syntax */
+  transform: rotate3d(-1,1,1,90deg); 
 }
 .wrap6:hover .eight{
-    -ms-transform: rotate3d(-1,1,-1,60deg); /* IE 9 */
-    -webkit-transform: rotate3d(-1,1,-1,60deg); /* Safari */
-    transform: rotate3d(-1,1,-1,60deg); /* Standard syntax */
+  transform: rotate3d(-1,1,-1,60deg); 
 }
 .wrap6:hover .nine{
-     -ms-transform: rotate3d(-1,1,1,360deg); /* IE 9 */
-    -webkit-transform: rotate3d(-1,1,1,360deg); /* Safari */
-    transform: rotate3d(-1,1,1,360deg); /* Standard syntax */
+  transform: rotate3d(-1,1,1,360deg); 
 }
 .wrap6:hover .ten{
-    -ms-transform: rotate3d(1,-1,-1,320deg); /* IE 9 */
-    -webkit-transform: rotate3d(1,-1,-1,320deg); /* Safari */
-    transform: rotate3d(1,-1,-1,320deg); /* Standard syntax */
+  transform: rotate3d(1,-1,-1,320deg); 
 }
-
-  .wrap7{
+/*Animation infinity*/
+.wrap7{
   background: url('../image/carbon_fibre.png');
   width: 800px;
   margin: 50px auto;
@@ -427,8 +313,7 @@ margin: 0;
   padding: 20px;
   position: relative;
   font-size: 20px;
-  }
-
+}
 .wrap7 .anim{
   height: 80px;
   width: 80px;
@@ -441,14 +326,11 @@ margin: 0;
   border:1px solid #759e90;
   box-shadow: 0 0 8px #baf5f8;
   line-height: 80px;
- animation-name: animate;
- animation-duration: 10s;
- animation-timing-function: linear;
-animation-iteration-count: infinite;
-
-
+  animation-name: animate;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
-
 @keyframes animate{
   0%{
     left: 4%; top:41%;
@@ -456,8 +338,6 @@ animation-iteration-count: infinite;
   3%{
     left: 7%; top:29%;
   }
-
-
   9%{
     left: 17%; top:18%;
   }
@@ -467,12 +347,9 @@ animation-iteration-count: infinite;
   15%{
     left: 27%; top:18%;
   }
-
   25%{
     left:43%; top:41%; background-color: #9c9fe1;
   }
-
-
   35%{
     left: 57%; top:62%;
   }
@@ -482,8 +359,6 @@ animation-iteration-count: infinite;
   41%{
     left: 67%; top:62%;
   }
-
-
   47%{
     left: 80%; top:53%; background-color: #e19ccf;
   }
@@ -493,7 +368,6 @@ animation-iteration-count: infinite;
   53%{
     left: 80%; top:29%; background-color: #e19ccf;
   }
-
   59%{
     left: 67%; top:18%; 
   }
@@ -503,11 +377,9 @@ animation-iteration-count: infinite;
   65%{
     left: 57%; top:18%; 
   }
-
   75%{
     left:43%; top:41%; background-color: #f2f071;
   }
-
   85%{
     left: 27%; top:62%; 
   }
